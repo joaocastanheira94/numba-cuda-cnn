@@ -4,7 +4,7 @@ This project was developed in the context of the Master's degree in Data Science
 
 We implemented the training of a simple Convolution Neural Network in parallel, by using CPU multiprocessing capabilities and GPU programming, through CUDA.
 
-For more details regarding our implementation, check ![report](report.pdf)
+For more details regarding our implementation, check [report](report.pdf)
 
 ## CNN architecture
 
