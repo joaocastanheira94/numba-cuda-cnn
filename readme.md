@@ -6,15 +6,15 @@ We implemented the training of a simple Convolution Neural Network in parallel, 
 
 ## CNN architecture
 
-The network architecture was very simple: a convolution and max pooling layer, followed by a fully connected layer for classification. Softmax was used as error function.
-
+The network architecture is very simple: a convolution and max pooling layer, followed by a fully connected layer for classification. Softmax was used as error function.
 
 
 ## Results
 
+We compared the time execution of the training, for three different versions: the sequential version, which was developed in NumPy, based on [1], and both the parallel version on CPU and GPU.
 
 
-
+![Results](images/parameters_comparison.png?raw=true "Title")
 
 
 ## Code structure
