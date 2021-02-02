@@ -21,6 +21,13 @@ We compared the time execution of the training, for three different versions: th
 
 ![Results](images/parameters_comparison.png?raw=true "Title")
 
+## Network evaluation
+
+The network was trained to classify images, for a given ten possible classes. MNIST handwritting digits dataset was used.
+
+As can be seen in the following image, the networks are learning well, reaching almost 90% of accuracy after just 100 epochs
+
+![Results_evalution](images/model_evaluation.jpeg?raw=true "Title")
 
 ## Code structure
 
