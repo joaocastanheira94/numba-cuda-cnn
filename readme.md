@@ -11,6 +11,9 @@ For more details regarding our implementation, check [report](report.pdf)
 The network architecture is very simple: a convolution and max pooling layer, followed by a fully connected layer for classification. Softmax was used as error function.
 
 
+![Results](images/network_architecture.png?raw=true "cnn_architecture")
+
+
 ## Results
 
 We compared the time execution of the training, for three different versions: the sequential version, which was developed in NumPy, based on [1], and both the parallel version on CPU and GPU.
@@ -40,7 +43,7 @@ The project code is structured in the following way:
         
 ## References
 
-[1]https://github.com/SkalskiP/ILearnDeepLearning.py/tree/master/01_mysteries_of_neural_networks/06_numpy_convolutional_neural_net
+[1] https://github.com/SkalskiP/ILearnDeepLearning.py/tree/master/01_mysteries_of_neural_networks/06_numpy_convolutional_neural_net
 
 [2] https://github.com/WHDY/mnist_cnn_numba_cuda
         
