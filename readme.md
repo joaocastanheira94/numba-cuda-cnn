@@ -11,7 +11,7 @@ For more details regarding our implementation, check [report](report.pdf)
 The network architecture is very simple: a convolution and max pooling layer, followed by a fully connected layer for classification. Softmax was used as error function.
 
 
-![CNN](images/network_architecture.png?raw=true "cnn_architecture")
+![CNN](images/network_architecture.PNG?raw=true "cnn_architecture")
 
 
 ## Results
